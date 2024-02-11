@@ -44,7 +44,7 @@ modules:
         - io.github.shiftey.Desktop
 
   - type: script
-   scripts:
+    scripts:
         - authselect.sh
         - setfilepermissions.sh
         
