@@ -1,0 +1,51 @@
+name: ublue-pc
+description: ""
+base-image: ghcr.io/ublue-os/kinoite-main
+image-version: 39 
+
+modules:
+  - type: files
+    files:
+      - usr: /usr
+
+  - type: rpm-ostree
+    repos:
+        - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/brave-browser.repo
+    install:
+        - zsh
+        - neovim
+        - solaar
+        - hardened_malloc
+        - corectrl
+        - brave-browser
+    optfix: 
+        - brave.com
+    remove:
+      - firefox
+      - firefox-langpacks
+
+  - type: default-flatpaks
+    notify: true 
+    user:
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      install:
+        - com.spotify.Client
+        - com.discordapp.Discord
+        - org.signal.Signal
+        - org.mozilla.firefox
+        - org.qbittorrent.qBittorrent
+        - com.stremio.Stremio
+        - org.videolan.VLC
+        - org.fedoraproject.MediaWriter
+        - org.onlyoffice.desktopeditors
+        - com.jetbrains.Rider
+        - io.github.shiftey.Desktop
+
+  - type: script
+   scripts:
+        - authselect.sh
+        - setfilepermissions.sh
+        
+  - type: signing
