@@ -1,5 +1,9 @@
 ublue_variants:
-  - label: mkkvcs/ublue
+  - label: mkkvcs/ublue-laptop
     ks: /kickstart/ublue-os.ks
     flavors:
-      - label: uBlue
+      - label: uBlue-Laptop
+  - label: mkkvcs/ublue-pc
+    ks: /kickstart/ublue-os.ks
+    flavors:
+      - label: uBlue-PC
