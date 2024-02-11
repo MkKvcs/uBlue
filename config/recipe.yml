@@ -44,12 +44,7 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.jetbrains.Rider
-        - com.github.tchx84.Flatseal
-        - org.gnome.Loupe
-        - org.gnome.TextEditor
-        - org.gnome.Weather
         - io.github.shiftey.Desktop
-        - org.gnome.Extensions
 
   - type: bling
     install:  
