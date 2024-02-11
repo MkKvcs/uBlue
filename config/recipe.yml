@@ -50,7 +50,7 @@ modules:
     install:  
         - laptop
   - type: script
-   scripts:
+    scripts:
         - authselect.sh
         - setfilepermissions.sh
         
