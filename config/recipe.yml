@@ -43,6 +43,7 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.jetbrains.Rider
+        - com.stremio.Stremio
         - io.github.shiftey.Desktop
 
   - type: bling
