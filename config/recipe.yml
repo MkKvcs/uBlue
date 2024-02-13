@@ -7,7 +7,7 @@ modules:
   - type: files
     files:
       - usr: /usr
-      - laptop: /usr
+      - laptop/usr: /usr
 
   - type: rpm-ostree
     repos:
