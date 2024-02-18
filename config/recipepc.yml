@@ -20,6 +20,7 @@ modules:
         - hardened_malloc
         - corectrl
         - brave-browser
+        - chromium
     optfix: 
         - brave.com
     remove:
