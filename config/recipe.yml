@@ -54,6 +54,4 @@ modules:
     scripts:
         - authselect.sh
         - setfilepermissions.sh
-        - air.sh
-        
   - type: signing
