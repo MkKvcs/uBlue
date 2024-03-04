@@ -46,7 +46,5 @@ modules:
   - type: script
     scripts:
         - authselect.sh
-        - setfilepermissions.sh
-        - proton.sh
-        
+        - setfilepermissions.sh        
   - type: signing
