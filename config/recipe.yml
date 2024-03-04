@@ -7,7 +7,6 @@ modules:
   - type: files
     files:
       - usr: /usr
-      - laptop/usr: /usr
 
   - type: rpm-ostree
     repos:
@@ -67,4 +66,5 @@ modules:
     scripts:
         - authselect.sh
         - setfilepermissions.sh
+        - proton.sh
   - type: signing
