@@ -12,6 +12,7 @@ modules:
     repos:
         - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
         - https://raw.githubusercontent.com/MkKvcs/fedora/main/brave-browser.repo
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
     install:
         - zsh
         - neovim
@@ -20,6 +21,7 @@ modules:
         - corectrl
         - brave-browser
         - chromium
+        - proton-vpn-gnome-desktop
     optfix: 
         - brave.com
     remove:
