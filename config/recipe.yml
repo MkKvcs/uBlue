@@ -40,6 +40,8 @@ modules:
         - wireshark-cli
         - aircrack-ng-doc
         - proton-vpn-gnome-desktop
+    optfix: 
+        - brave.com
     remove:
       - firefox
       - firefox-langpacks
