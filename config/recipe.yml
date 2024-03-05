@@ -13,11 +13,8 @@ modules:
         - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
         - https://raw.githubusercontent.com/MkKvcs/fedora/main/brave-browser.repo
         - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
-        - https://copr.fedorainfracloud.org/coprs/secureblue/pam-authramp/repo/fedora-39/pam-authramp.repo
-
     install:
         - zsh
-        - pam-authramp
         - neovim
         - easyeffects
         - solaar
@@ -69,7 +66,5 @@ modules:
         - laptop
   - type: script
     scripts:
-        - addauthramp.sh
-        - optoutauthselect.sh
         - setfilepermissions.sh
   - type: signing
