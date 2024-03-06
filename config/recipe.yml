@@ -37,6 +37,8 @@ modules:
         - wireshark-cli
         - aircrack-ng-doc
         - proton-vpn-gnome-desktop
+        - freerdp
+        - virt-manager
     optfix: 
         - brave.com
     remove:
