@@ -23,10 +23,12 @@ modules:
         - proton-vpn-gnome-desktop
         - freerdp
         - virt-manager
+    optfix: 
+        - brave.com
     remove:
       - firefox
       - firefox-langpacks
-
+      
   - type: default-flatpaks
     notify: true 
     system:
