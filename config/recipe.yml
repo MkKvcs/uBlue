@@ -22,7 +22,6 @@ modules:
         - pipewire-codec-aptx
         - hardened_malloc
         - brave-browser
-        - chromium
         - aircrack-ng
         - c-ares
         - compat-lua-libs
