@@ -36,7 +36,6 @@ modules:
         - wireshark-cli
         - aircrack-ng-doc
         - proton-vpn-gnome-desktop
-        - freerdp
         - virt-manager
     optfix: 
         - brave.com
@@ -68,4 +67,5 @@ modules:
   - type: script
     scripts:
         - setfilepermissions.sh
+        - freerdp.sh
   - type: signing
