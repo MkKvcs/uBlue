@@ -1,9 +1,0 @@
-[Desktop Entry]
-Name=Airgorah
-Comment=A WiFi auditing software that can perform deauth attacks and passwords cracking
-Exec=pkexec airgorah
-Icon=/usr/share/pixmaps/airgorah.png
-ApplicationId=com.molivier.airgorah
-Categories=System;Utility;
-Type=Application
-Terminal=false
