@@ -39,6 +39,7 @@ modules:
         - virt-manager
     optfix: 
         - brave.com
+        - freerdp-nightly
     remove:
       - firefox
       - firefox-langpacks
