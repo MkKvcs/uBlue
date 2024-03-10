@@ -36,8 +36,6 @@ modules:
         - wireshark-cli
         - aircrack-ng-doc
         - proton-vpn-gnome-desktop
-        - virt-manager
-        - freerdp
     optfix: 
         - brave.com
     remove:
@@ -53,13 +51,12 @@ modules:
         - com.spotify.Client
         - com.discordapp.Discord
         - org.signal.Signal
-        - org.mozilla.firefox
         - org.qbittorrent.qBittorrent
         - org.videolan.VLC
         - com.github.d4nj1.tlpui
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
-        - com.jetbrains.Rider
+        - com.visualstudio.code
         - io.github.shiftey.Desktop
 
   - type: bling
