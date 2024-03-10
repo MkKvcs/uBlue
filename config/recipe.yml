@@ -61,5 +61,4 @@ modules:
   - type: script
     scripts:
         - setfilepermissions.sh
-        - tuned.sh
   - type: signing
