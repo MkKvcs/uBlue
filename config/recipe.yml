@@ -58,10 +58,6 @@ modules:
         - org.onlyoffice.desktopeditors
         - com.visualstudio.code
         - io.github.shiftey.Desktop
-
-  - type: bling
-    install:  
-        - laptop
   - type: script
     scripts:
         - setfilepermissions.sh
