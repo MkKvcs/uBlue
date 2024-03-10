@@ -21,8 +21,6 @@ modules:
         - corectrl
         - brave-browser
         - proton-vpn-gnome-desktop
-        - freerdp
-        - virt-manager
     optfix: 
         - brave.com
     remove:
@@ -38,12 +36,11 @@ modules:
         - com.spotify.Client
         - com.discordapp.Discord
         - org.signal.Signal
-        - org.mozilla.firefox
         - org.qbittorrent.qBittorrent
         - org.videolan.VLC
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
-        - com.jetbrains.Rider
+        - com.visualstudio.code
         - io.github.shiftey.Desktop
 
   - type: script
