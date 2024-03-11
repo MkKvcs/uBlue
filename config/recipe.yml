@@ -53,11 +53,10 @@ modules:
         - org.signal.Signal
         - org.qbittorrent.qBittorrent
         - org.videolan.VLC
-        - com.github.d4nj1.tlpui
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.visualstudio.code
-        - io.github.shiftey.Desktop
+        
   - type: script
     scripts:
         - setfilepermissions.sh
