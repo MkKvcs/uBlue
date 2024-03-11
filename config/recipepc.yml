@@ -41,7 +41,6 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.visualstudio.code
-        - io.github.shiftey.Desktop
 
   - type: script
     scripts:
