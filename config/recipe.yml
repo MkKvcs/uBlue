@@ -55,7 +55,7 @@ modules:
         - org.videolan.VLC
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
-        - com.visualstudio.code
+        - com.jetbrains.Rider
         
   - type: script
     scripts:
