@@ -11,25 +11,20 @@ modules:
   - type: rpm-ostree
     repos:
         - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
-        - https://raw.githubusercontent.com/MkKvcs/fedora/main/brave-browser.repo
-        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
     install:
         - zsh
         - neovim
         - solaar
         - hardened_malloc
         - corectrl
-        - brave-browser
-        - proton-vpn-gnome-desktop
-    optfix: 
-        - brave.com
+        - chromium
     remove:
       - firefox
       - firefox-langpacks
       
   - type: default-flatpaks
     notify: true 
-    system:
+    user:
       repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
       install:
@@ -41,6 +36,7 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.jetbrains.Rider
+        - com.protonvpn.www
 
   - type: script
     scripts:
