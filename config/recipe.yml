@@ -11,8 +11,6 @@ modules:
   - type: rpm-ostree
     repos:
         - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
-        - https://raw.githubusercontent.com/MkKvcs/fedora/main/brave-browser.repo
-        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
     install:
         - zsh
         - neovim
@@ -21,7 +19,7 @@ modules:
         - pavucontrol
         - pipewire-codec-aptx
         - hardened_malloc
-        - brave-browser
+        - chromium
         - aircrack-ng
         - c-ares
         - compat-lua-libs
@@ -35,9 +33,6 @@ modules:
         - macchanger
         - wireshark-cli
         - aircrack-ng-doc
-        - proton-vpn-gnome-desktop
-    optfix: 
-        - brave.com
     remove:
       - firefox
       - firefox-langpacks
@@ -56,6 +51,7 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.jetbrains.Rider
+        - com.protonvpn.www
         
   - type: script
     scripts:
