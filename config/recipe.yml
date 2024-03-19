@@ -1,12 +1,11 @@
 name: ublue-laptop
 description: ""
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
 image-version: 39 
 
 modules:
   - type: rpm-ostree
     repos:
-        - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
     install:
         - zsh
         - neovim
@@ -14,8 +13,6 @@ modules:
         - solaar
         - pavucontrol
         - pipewire-codec-aptx
-        - hardened_malloc
-        - chromium
         - aircrack-ng
         - c-ares
         - compat-lua-libs
@@ -29,9 +26,7 @@ modules:
         - macchanger
         - wireshark-cli
         - aircrack-ng-doc
-    remove:
-      - firefox
-      - firefox-langpacks
+
   - type: files
     files:
       - usr: /usr
@@ -55,4 +50,6 @@ modules:
   - type: script
     scripts:
         - setfilepermissions.sh
+        - chromium.sh
+        - bluetooththunder.sh
   - type: signing
