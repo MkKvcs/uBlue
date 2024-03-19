@@ -26,10 +26,6 @@ modules:
         - macchanger
         - wireshark-cli
         - aircrack-ng-doc
-
-  - type: files
-    files:
-      - usr: /usr
      
   - type: default-flatpaks
     notify: true 
