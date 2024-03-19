@@ -1,26 +1,18 @@
 name: ublue-pc
 description: ""
-base-image: ghcr.io/ublue-os/kinoite-main
+base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
 image-version: 39 
 
 modules:
   - type: rpm-ostree
     repos:
-        - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
     install:
         - zsh
         - neovim
         - solaar
         - hardened_malloc
         - corectrl
-        - chromium
-    remove:
-      - firefox
-      - firefox-langpacks
-  - type: files
-    files:
-      - usr: /usr 
-      
+        
   - type: default-flatpaks
     notify: true 
     user:
@@ -40,4 +32,6 @@ modules:
   - type: script
     scripts:
         - setfilepermissions.sh   
+        - chromium.sh
+        - bluetooththunder.sh
   - type: signing
