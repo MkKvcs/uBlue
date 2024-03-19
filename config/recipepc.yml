@@ -10,7 +10,6 @@ modules:
         - zsh
         - neovim
         - solaar
-        - hardened_malloc
         - corectrl
         
   - type: default-flatpaks
