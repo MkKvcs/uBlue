@@ -31,7 +31,6 @@ modules:
 
   - type: script
     scripts:
-        - setfilepermissions.sh   
         - chromium.sh
         - bluetooththunder.sh
   - type: signing
