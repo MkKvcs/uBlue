@@ -4,10 +4,6 @@ base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 39 
 
 modules:
-  - type: files
-    files:
-      - usr: /usr
-
   - type: rpm-ostree
     repos:
         - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-39/secureblue-hardened_malloc-fedora-39.repo
@@ -35,8 +31,10 @@ modules:
         - aircrack-ng-doc
     remove:
       - firefox
-      - firefox-langpacks
-
+ - type: files
+    files:
+      - usr: /usr
+     - firefox-langpacks
   - type: default-flatpaks
     notify: true 
     user:
