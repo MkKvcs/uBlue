@@ -31,10 +31,11 @@ modules:
         - aircrack-ng-doc
     remove:
       - firefox
- - type: files
+      - firefox-langpacks
+  - type: files
     files:
       - usr: /usr
-     - firefox-langpacks
+     
   - type: default-flatpaks
     notify: true 
     user:
