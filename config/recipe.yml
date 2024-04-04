@@ -26,7 +26,13 @@ modules:
         - macchanger
         - wireshark-cli
         - aircrack-ng-doc
-     
+        - tuned
+        - tuned-ppd
+        - tuned-utils
+        - tuned-profiles-atomic
+    remove:
+        - power-profiles-daemon
+        
   - type: default-flatpaks
     notify: true 
     user:
@@ -43,6 +49,11 @@ modules:
         - com.jetbrains.Rider
         - com.protonvpn.www
         
+  - type: systemd
+    system:
+      enabled:
+        - tuned.service
+  
   - type: script
     scripts:
         - chromium.sh
