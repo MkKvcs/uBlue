@@ -13,12 +13,6 @@ modules:
         - solaar
         - pavucontrol
         - pipewire-codec-aptx
-        - tuned
-        - tuned-ppd
-        - tuned-utils
-        - tuned-profiles-atomic
-    remove:
-        - power-profiles-daemon
         
   - type: default-flatpaks
     notify: true 
@@ -36,11 +30,6 @@ modules:
         - com.jetbrains.Rider
         - com.protonvpn.www
         - io.github.shiftey.Desktop
-        
-  - type: systemd
-    system:
-      enabled:
-        - tuned.service
   
   - type: script
     scripts:
