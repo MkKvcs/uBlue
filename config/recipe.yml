@@ -35,6 +35,7 @@ modules:
         - org.onlyoffice.desktopeditors
         - com.jetbrains.Rider
         - com.protonvpn.www
+        - io.github.shiftey.Desktop
         
   - type: systemd
     system:
