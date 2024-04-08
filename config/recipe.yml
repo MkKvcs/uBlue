@@ -11,8 +11,6 @@ modules:
         - neovim
         - easyeffects
         - solaar
-        - pavucontrol
-        - pipewire-codec-aptx
         
   - type: default-flatpaks
     notify: true 
