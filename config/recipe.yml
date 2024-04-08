@@ -11,6 +11,19 @@ modules:
         - neovim
         - easyeffects
         - solaar
+        - aircrack-ng
+        - c-ares
+        - compat-lua-libs
+        - dbus-daemon
+        - dbus-tools
+        - dbus-x11
+        - hwloc-libs
+        - iw
+        - libmaxminddb
+        - libsmi
+        - macchanger
+        - wireshark-cli
+        - aircrack-ng-doc
         
   - type: default-flatpaks
     notify: true 
