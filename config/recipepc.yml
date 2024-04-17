@@ -6,11 +6,15 @@ image-version: br-f40-40
 modules:
   - type: rpm-ostree
     repos:
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/brave-browser.repo
     install:
         - zsh
         - neovim
         - solaar
         - corectrl
+        - brave-browser
+     optfix:
+        - brave.com
         
   - type: default-flatpaks
     notify: true 
