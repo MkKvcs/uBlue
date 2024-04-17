@@ -13,7 +13,7 @@ modules:
         - solaar
         - corectrl
         - brave-browser
-     optfix:
+    optfix:
         - brave.com
         
   - type: default-flatpaks
