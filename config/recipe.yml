@@ -30,6 +30,7 @@ modules:
         - qemu-kvm
         - virt-manager
         - virt-viewer
+        - freerdp
         
   - type: default-flatpaks
     notify: true 
