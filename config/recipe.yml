@@ -24,6 +24,12 @@ modules:
         - macchanger
         - wireshark-cli
         - aircrack-ng-doc
+        - virt-install
+        - libvirt-daemon-config-network
+        - libvirt-daemon-kvm
+        - qemu-kvm
+        - virt-manager
+        - virt-viewer
         
   - type: default-flatpaks
     notify: true 
