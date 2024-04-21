@@ -28,6 +28,7 @@ modules:
         - com.protonvpn.www
         - io.github.shiftey.Desktop
         - org.kde.okular
+        - io.freetubeapp.FreeTube
 
   - type: script
     scripts:
