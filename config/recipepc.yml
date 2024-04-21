@@ -27,6 +27,7 @@ modules:
         - org.onlyoffice.desktopeditors
         - com.protonvpn.www
         - io.github.shiftey.Desktop
+        - flathub org.kde.okular
 
   - type: script
     scripts:
