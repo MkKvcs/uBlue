@@ -1,6 +1,6 @@
 name: ublue-laptop
 description: ""
-base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+base-image: ghcr.io/secureblue/silverblue-main-userns-hardened
 image-version: br-f40-40
 
 modules:
@@ -41,7 +41,6 @@ modules:
         - com.jetbrains.Rider
         - com.protonvpn.www
         - io.github.shiftey.Desktop
-        - org.kde.okular
   
   - type: script
     scripts:
