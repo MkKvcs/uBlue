@@ -24,6 +24,10 @@ modules:
         - macchanger
         - wireshark-cli
         - aircrack-ng-doc
+        - gnome-terminal
+        - gnome-terminal-nautilus
+    remove:
+        - gnome-console
         
   - type: default-flatpaks
     notify: true 
