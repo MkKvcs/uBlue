@@ -25,6 +25,7 @@ modules:
         - org.videolan.VLC
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
+        - com.jetbrains.Rider
         - com.protonvpn.www
         - io.github.shiftey.Desktop
         - org.kde.okular
