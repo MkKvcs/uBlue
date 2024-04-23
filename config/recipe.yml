@@ -1,7 +1,7 @@
 name: ublue-laptop
 description: ""
 base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
-image-version: br-f40-40
+image-version: latest
 
 modules:
   - type: rpm-ostree
