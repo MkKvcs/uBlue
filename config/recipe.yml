@@ -28,7 +28,6 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - com.jetbrains.Rider
-        - com.protonvpn.www
         - io.github.shiftey.Desktop
         - org.kde.okular
         - io.freetubeapp.FreeTube
