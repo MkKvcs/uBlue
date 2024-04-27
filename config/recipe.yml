@@ -6,11 +6,13 @@ image-version: latest
 modules:
   - type: rpm-ostree
     repos:
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
     install:
         - zsh
         - neovim
         - easyeffects
         - solaar
+        - proton-vpn-gtk-app
         
   - type: default-flatpaks
     notify: true 
