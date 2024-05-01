@@ -27,7 +27,7 @@ modules:
         - org.videolan.VLC
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
-        - com.jetbrains.Rider
+        - com.visualstudio.code
         - io.github.shiftey.Desktop
         - org.kde.okular
         - io.freetubeapp.FreeTube
