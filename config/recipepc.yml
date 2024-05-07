@@ -12,7 +12,7 @@ modules:
         - neovim
         - solaar
         - corectrl
-        - proton-vpn-gtk-app
+        - proton-vpn-gnome-desktop
         
   - type: default-flatpaks
     notify: true 
