@@ -30,6 +30,7 @@ modules:
         - io.github.shiftey.Desktop
         - org.kde.okular
         - io.freetubeapp.FreeTube
+        - com.mastermindzh.tidal-hifi
   
   - type: script
     scripts:
