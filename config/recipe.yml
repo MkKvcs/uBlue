@@ -4,6 +4,10 @@ base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
 image-version: latest
 
 modules:
+  - type: files
+    files:
+      - usr: /usr
+
   - type: rpm-ostree
     repos:
         - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
