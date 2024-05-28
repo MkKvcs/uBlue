@@ -1,6 +1,6 @@
 name: ublue-laptop
 description: ""
-base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+base-image: ghcr.io/secureblue/bluefin-dx-main-userns-hardened
 image-version: latest
 
 modules:
