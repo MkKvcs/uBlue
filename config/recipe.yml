@@ -34,8 +34,7 @@ modules:
         - io.freetubeapp.FreeTube
         - com.github.tchx84.Flatseal
         - se.sjoerd.Graphs
-        - de.haeckerfelix.Fragments
-  
+        - org.qbittorrent.qBittorrent  
   - type: script
     scripts:
         - chromium.sh
