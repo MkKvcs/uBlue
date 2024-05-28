@@ -27,13 +27,14 @@ modules:
         - com.spotify.Client
         - com.discordapp.Discord
         - org.signal.Signal
-        - org.qbittorrent.qBittorrent
         - org.videolan.VLC
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
-        - org.kde.okular
         - io.freetubeapp.FreeTube
+        - com.github.tchx84.Flatseal
+        - se.sjoerd.Graphs
+        - de.haeckerfelix.Fragments
   
   - type: script
     scripts:
