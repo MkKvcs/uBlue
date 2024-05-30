@@ -32,7 +32,7 @@ modules:
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
         - io.freetubeapp.FreeTube
-        - com.github.tchx84.Flatseal
+        - org.kde.okular
         - org.qbittorrent.qBittorrent  
   - type: script
     scripts:
