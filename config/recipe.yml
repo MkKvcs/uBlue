@@ -36,5 +36,5 @@ modules:
         - org.qbittorrent.qBittorrent  
   - type: script
     scripts:
-        - chromium.sh
+        - chromium_laptop.sh
   - type: signing
