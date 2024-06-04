@@ -37,5 +37,4 @@ modules:
 
   - type: script
     scripts:
-        - chromium.sh
   - type: signing
