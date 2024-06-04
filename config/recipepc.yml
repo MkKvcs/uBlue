@@ -17,6 +17,7 @@ modules:
         - solaar
         - corectrl
         - proton-vpn-gnome-desktop
+        - fastfetch
         
   - type: default-flatpaks
     notify: true 
