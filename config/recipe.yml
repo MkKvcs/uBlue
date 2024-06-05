@@ -10,13 +10,13 @@ modules:
 
   - type: rpm-ostree
     repos:
-        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
+
     install:
         - zsh
         - neovim
         - easyeffects
         - solaar
-        - proton-vpn-gnome-desktop
+        - fastfetch
         
   - type: default-flatpaks
     notify: true 
@@ -33,7 +33,8 @@ modules:
         - io.github.shiftey.Desktop
         - io.freetubeapp.FreeTube
         - org.kde.okular
-        - org.qbittorrent.qBittorrent  
+        - org.qbittorrent.qBittorrent
+
   - type: script
     scripts:
         - chromium_laptop.sh
