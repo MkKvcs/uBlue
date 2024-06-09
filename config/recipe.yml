@@ -31,7 +31,6 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
-        - io.freetubeapp.FreeTube
         - org.kde.okular
         - org.qbittorrent.qBittorrent
 

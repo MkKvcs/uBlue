@@ -32,7 +32,6 @@ modules:
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
         - org.kde.okular
-        - io.freetubeapp.FreeTube
 
   - type: script
     scripts:
