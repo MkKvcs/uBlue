@@ -17,6 +17,7 @@ modules:
         - easyeffects
         - solaar
         - fastfetch
+        - libinput-utils
         
   - type: default-flatpaks
     notify: true 
