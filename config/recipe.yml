@@ -1,6 +1,6 @@
 name: ublue-laptop
 description: ""
-base-image: ghcr.io/secureblue/kinoite-main-userns-hardened
+base-image: ghcr.io/secureblue/bluefin-main-userns-hardened
 image-version: latest
 
 modules:
@@ -31,8 +31,8 @@ modules:
         - org.fedoraproject.MediaWriter
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
-        - org.kde.okular
         - org.qbittorrent.qBittorrent
+        - com.github.tchx84.Flatseal
 
   - type: script
     scripts:
