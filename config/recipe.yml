@@ -17,7 +17,6 @@ modules:
         - easyeffects
         - solaar
         - fastfetch
-        - libinput-utils
         
   - type: default-flatpaks
     notify: true 
@@ -33,7 +32,6 @@ modules:
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
-        - com.github.tchx84.Flatseal
 
   - type: script
     scripts:
