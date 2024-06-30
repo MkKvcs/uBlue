@@ -10,6 +10,8 @@ modules:
 
   - type: rpm-ostree
     repos:
+    optfix:
+        - safing
     install:
         - zsh
         - neovim
