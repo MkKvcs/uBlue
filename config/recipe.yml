@@ -20,8 +20,8 @@ modules:
   - type: fonts
     fonts:
     google-fonts:
-      - IBM Plex Sans
-      - IBM Plex Mono
+      - Roboto
+      - Roboto Mono
     
   - type: default-flatpaks
     notify: true 
