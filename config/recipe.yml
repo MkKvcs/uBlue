@@ -16,8 +16,13 @@ modules:
         - easyeffects
         - solaar
         - fastfetch
-        - ubuntu-family-fonts
-      
+        
+   - type: fonts
+    fonts:
+    google-fonts:
+      - IBM Plex Sans
+      - IBM Plex Mono
+    
   - type: default-flatpaks
     notify: true 
     user:
