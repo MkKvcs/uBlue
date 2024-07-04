@@ -16,6 +16,7 @@ modules:
         - easyeffects
         - solaar
         - fastfetch
+        - ubuntu-family-fonts
       
   - type: default-flatpaks
     notify: true 
