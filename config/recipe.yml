@@ -32,7 +32,7 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - org.kde.okular
-        - com.jetbrains.Rider
+        - com.visualstudio.code
 
   - type: script
     scripts:
