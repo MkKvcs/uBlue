@@ -17,7 +17,7 @@ modules:
         - solaar
         - fastfetch
         
-   - type: fonts
+  - type: fonts
     fonts:
     google-fonts:
       - IBM Plex Sans
