@@ -10,20 +10,23 @@ modules:
 
   - type: rpm-ostree
     repos:
-        - https://raw.githubusercontent.com/MkKvcs/fedora/main/nordvpn.repo
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/protonvpn-stable.repo
     install:
         - zsh
         - neovim
         - easyeffects
         - solaar
         - fastfetch
-        - nordvpn
+        - proton-vpn-gnome-desktop
         
   - type: fonts
+    fonts:
+    nerd-fonts:
+        - JetBrainsMono
     google-fonts:
-      - Roboto
-      - Roboto Mono
-    
+        - Roboto
+        - Open Sans
+        
   - type: default-flatpaks
     notify: true 
     user:
