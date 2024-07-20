@@ -10,12 +10,14 @@ modules:
 
   - type: rpm-ostree
     repos:
+        - https://raw.githubusercontent.com/MkKvcs/fedora/main/nordvpn.repo
     install:
         - zsh
         - neovim
         - easyeffects
         - solaar
         - fastfetch
+        - nordvpn
         
   - type: fonts
     google-fonts:
