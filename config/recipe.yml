@@ -19,14 +19,6 @@ modules:
         - fastfetch
         - proton-vpn-gnome-desktop
         
-  - type: fonts
-    fonts:
-    nerd-fonts:
-        - JetBrainsMono
-    google-fonts:
-        - Roboto
-        - Open Sans
-        
   - type: default-flatpaks
     notify: true 
     user:
