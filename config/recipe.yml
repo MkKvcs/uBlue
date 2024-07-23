@@ -36,6 +36,8 @@ modules:
         - com.visualstudio.code
         - com.github.tchx84.Flatseal
         - com.mattjakeman.ExtensionManager
+        - org.gnome.Evince
+        - org.gnome.Loupe
 
   - type: script
     scripts:
