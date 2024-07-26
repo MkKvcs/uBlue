@@ -34,6 +34,8 @@ modules:
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
         - com.visualstudio.code
+        - org.kde.gwenview
+        - org.kde.okular
 
   - type: script
     scripts:
