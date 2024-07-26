@@ -18,6 +18,7 @@ modules:
         - solaar
         - fastfetch
         - proton-vpn-gnome-desktop
+        - rsms-inter-fonts
         
   - type: default-flatpaks
     notify: true 
