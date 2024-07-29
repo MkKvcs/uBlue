@@ -15,10 +15,12 @@ modules:
         - zsh
         - neovim
         - easyeffects
-        - solaar
-        - fastfetch
         - proton-vpn-gnome-desktop
         - rsms-inter-fonts
+    remove:
+        - input-leap
+        - input-remapper
+        - tailscale
         
   - type: default-flatpaks
     notify: true 
