@@ -1,6 +1,6 @@
 name: ublue-laptop
 description: ""
-base-image: ghcr.io/secureblue/cosmic-main-userns-hardened
+base-image: ghcr.io/secureblue/bluefin-main-userns-hardened
 image-version: latest
 
 modules:
@@ -16,7 +16,6 @@ modules:
         - neovim
         - easyeffects
         - proton-vpn-gnome-desktop
-        - seahorse
         
   - type: default-flatpaks
     notify: true 
@@ -32,9 +31,9 @@ modules:
         - org.onlyoffice.desktopeditors
         - io.github.shiftey.Desktop
         - org.qbittorrent.qBittorrent
-        - com.visualstudio.code
-        - org.kde.gwenview
-        - org.kde.okular
+        - org.gnome.eog
+        - org.gnome.Evince
+        - com.mattjakeman.ExtensionManager
 
   - type: script
     scripts:
