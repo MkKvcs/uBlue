@@ -16,6 +16,10 @@ modules:
         - neovim
         - easyeffects
         - proton-vpn-gnome-desktop
+    remove:
+        - input-leap
+        - input-remapper
+        - tailscale
         
   - type: default-flatpaks
     notify: true 
