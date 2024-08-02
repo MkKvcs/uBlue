@@ -1,6 +1,6 @@
 name: ublue-laptop
 description: ""
-base-image: ghcr.io/secureblue/aurora-main-userns-hardened
+base-image: ghcr.io/secureblue/cosmic-main-userns-hardened
 image-version: latest
 
 modules:
@@ -16,11 +16,7 @@ modules:
         - neovim
         - easyeffects
         - proton-vpn-gnome-desktop
-        - rsms-inter-fonts
-    remove:
-        - input-leap
-        - input-remapper
-        - tailscale
+        - seahorse
         
   - type: default-flatpaks
     notify: true 
