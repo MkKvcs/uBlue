@@ -18,6 +18,7 @@ modules:
         - proton-vpn-gnome-desktop
         - libadwaita-qt5
         - libadwaita-qt6
+        - fastfetch
         
   - type: default-flatpaks
     notify: true 
