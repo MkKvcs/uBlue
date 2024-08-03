@@ -16,6 +16,8 @@ modules:
         - neovim
         - easyeffects
         - proton-vpn-gnome-desktop
+        - libadwaita-qt5
+        - libadwaita-qt6
         
   - type: default-flatpaks
     notify: true 
